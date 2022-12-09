@@ -96,7 +96,7 @@ export const ArrayChallenges = () => {
       <div className={styles.challengeWindow}>
         <div className={styles.resultWindow}>
           <h2>Result</h2>
-          <p>Result will be displayed here</p>
+          <p>The result will be displayed here</p>
           <pre>{JSON.stringify(result, null, 2)}</pre>
         </div>
 
@@ -112,42 +112,56 @@ export const ArrayChallenges = () => {
 
           <div className={styles.challenge}>
             <p>01 - Sort the array of football players by their birth year, youngest first</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>02 - How many players are there in the football players array that play in the Premier League?</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>03 - How many goals have been scored in total by all players this season?</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>04 - Create a new array of football players that only includes players that are currently top scorers in their league</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>05 - Find the country with the most football players in the football players array</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>06 - Create a new array of football players that includes the current country they play in</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>07 - Create a new array of football players that includes the current league they play in, and the current top scorer of that league</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
+
+          <div className={styles.divider} />
 
           <div className={styles.challenge}>
             <p>08 - Create an object with the player that currently has the most scored goals</p>
-            <button className={styles.actionButton}>RUN</button>
+            <button className={styles.actionButton} onClick={() => setResult('Solve the task first')}>RUN</button>
           </div>
         </div>
       </div>
