@@ -100,6 +100,8 @@ export const ArrayChallenges = () => {
           <pre>{JSON.stringify(result, null, 2)}</pre>
         </div>
 
+        <div className={styles.verticalDivider} />
+
         <div className={styles.challenges}>
           <div className={styles.challenge}>
             <p>Reset result</p>

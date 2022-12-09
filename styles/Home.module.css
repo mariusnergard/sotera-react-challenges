@@ -120,7 +120,7 @@
 .challengeWindow {
   width: 80%;
   display: grid;
-  grid-template-columns: 4fr 6fr;
+  grid-template-columns: 4fr 3px 6fr;
   grid-gap: 20px;
   border: #FFF 1px solid;
   padding: 40px;
@@ -169,6 +169,11 @@
 .divider {
   border-bottom: 1px solid #eaeaea;
   margin: 3px 0;
+}
+
+.verticalDivider {
+  border-left: 1px solid #eaeaea;
+  margin: 0 3px;
 }
 
 @media (max-width: 600px) {
