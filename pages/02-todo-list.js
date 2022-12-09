@@ -10,7 +10,7 @@ const checklist = [
   {text: 'Turn coffee into code', checked: false},
 ]
 
-export const ArrayChallenges = () => {
+export const TodoList = () => {
 
   const [todos, setTodos] = React.useState(checklist);
 
@@ -81,4 +81,4 @@ export const ArrayChallenges = () => {
 };
 
 
-export default ArrayChallenges;
+export default TodoList;
