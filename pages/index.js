@@ -38,30 +38,21 @@ export default function Home() {
               <p>File: <code>/pages/02-todo-list</code></p>
             </Link>
 
-            <a href="https://nextjs.org/learn" className={styles.card}>
-              <h2>Learn &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
+            <Link href="/03-api-fetch" className={styles.card}>
+              <h2>03 - API challenge</h2>
+              <p>Create and fetch data from Next.js API route</p>
+              <br/>
+              <p>File: <code>/pages/03-api-fetch</code></p>
+            </Link>
 
-            <a
-              href="https://github.com/vercel/next.js/tree/canary/examples"
-              className={styles.card}
-            >
-              <h2>Examples &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
+            <Link href="/04-custom-hooks" className={styles.card}>
+              <h2>04 - Custom Hook challenge</h2>
+              <p>Create a custom hook from existing code</p>
+              <br/>
+              <p>File: <code>/pages/04-custom-hooks</code></p>
+            </Link>
 
-            <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.card}
-            >
-              <h2>Deploy &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
+
           </div>
 
       </>
