@@ -52,6 +52,13 @@ export default function Home() {
               <p>File: <code>/pages/04-custom-hooks</code></p>
             </Link>
 
+            <Link href="/05-spot-the-bug" className={styles.card}>
+              <h2>05 - Spot the bug</h2>
+              <p>Spot the bug to make the filter work</p>
+              <br/>
+              <p>File: <code>/pages/05-spot-the-bug</code></p>
+            </Link>
+
 
           </div>
 
